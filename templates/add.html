@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Add New Student</h2>
+<form method="POST">
+    <input type="text" name="name" placeholder="Name" class="form-control mb-2" required>
+    <input type="number" name="age" placeholder="Age" class="form-control mb-2" required>
+    <input type="text" name="department" placeholder="Department" class="form-control mb-2" required>
+    <input type="submit" value="Add Student" class="btn btn-success">
+</form>
+{% endblock %}

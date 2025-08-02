@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Admin Login</h2>
+<form method="POST">
+    <input type="text" name="username" placeholder="Username" required class="form-control mb-2">
+    <input type="password" name="password" placeholder="Password" required class="form-control mb-2">
+    <input type="submit" value="Login" class="btn btn-primary">
+</form>
+{% if error %}
+<p class="text-danger">{{ error }}</p>
+{% endif %}
+{% endblock %}
