@@ -31,7 +31,6 @@ A simple web-based CRUD application built using **Flask**, **Python**, and **SQL
 
 Student-Record-Management-System/
 
-│
 ├── templates/ # HTML templates (login.html, dashboard.html, add.html, edit.html)
 
 ├── static/ # Static files (CSS, images if any)
