@@ -30,11 +30,16 @@ A simple web-based CRUD application built using **Flask**, **Python**, and **SQL
 ## 📁 Project Structure
 
 Student-Record-Management-System/
+
 │
 ├── templates/ # HTML templates (login.html, dashboard.html, add.html, edit.html)
+
 ├── static/ # Static files (CSS, images if any)
+
 ├── students.db # SQLite database (auto-generated)
+
 ├── app.py # Main Flask application
+
 └── README.md # Project README
 
 
